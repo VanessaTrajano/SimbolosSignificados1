@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;900&family=Raleway:wght@200;500;700;900&family=Roboto+Mono:wght@400;500;700&family=Rubik:wght@300;400;500;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 6vw;
+    background-color: #a54b6e;
+    position: fixed;
+}
+.header h1{
+    font-size: 4.5vw;
+    color: ivory;
+    text-shadow: 2px 2px 1px #c391b6;
+    font-family: 'Raleway';
+}
+main{
+    padding-top: 6vw;
+    width: 100%;
+    background-color: #000;
+}
+.intro{
+    height: 24vw;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-bottom: 0.5vw dotted #b8d7ad;
+    color: whitesmoke;
+}
+.intro h2{
+    border-right: 0.2vw dashed #7cb6c2;
+    font-size: 4vw;
+    font-family: 'Rubik';
+    font-weight: 400;
+    width: 15%;
+    height: 80%;
+}
+.intro p{
+    font-size: 2.8vw;
+    font-family: 'Rubik';
+    font-weight: 300;
+    text-align: justify;
+    width: 70%;
+    height: 70%;
+}
+.simbols{
+    padding-top: 4vw;
+    width: 100%;
+    height: 165vw;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.simbol{
+    width: 47%;
+    height: 25vw;
+    border: 0.5vw double #7cb6c2;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: whitesmoke;
+}
+.pentagram{
+    height: 70%;
+}
+.text{
+    width: 51%;
+}
+.text h3{
+    font-size: 3vw;
+    text-align: center;
+}
+.text p{
+    text-align:justify;
+    font-size: 2vw;
+}
+.triskle{
+    height: 60%;
+}
+.heptagram{
+    height: 70%;
+}
+.trilua{
+    height: 80%;
+}
+.pentacle{
+    height: 60%;
+}
+.cernuno{
+    height:80%;
+}
+.deusa{
+    height: 90%;
+}
+.cross{
+    height: 70%;
+}
